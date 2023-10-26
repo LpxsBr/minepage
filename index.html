@@ -51,25 +51,43 @@
 <body>
     <main>
         <button id="darkmodeBtn" onclick="darkMode()">Darkmode 🌞</button>
-        <select onchange="teste(event)" name="select" id="select">
-            <option value="pt-br">PT</option>
-            <option value="ja">PsdfgT</option>
-            <option value="sd-br">PTfd</option>
-            <option value="fd-br">PTfd</option>
-            <option value="pfdt-br">PTfsd</option>
+        <select onchange="setIdiom(event)" name="select" id="select">
+
+
         </select>
         <div class="readme" id="readme"></div>
     </main>
 </body>
 <script>
 
-    // darkmode hehehe
+    // Idiom
+    
+    var idiom = window.localStorage.getItem('idiom') ? setIdiom() : 'pt-br'
+    const selectDoc = document.getElementById('select')
 
-    let idiom = 'pt-br'
+    let options = [
+        'pt-br', 'en', 'es', 'ja'
+    ]
 
-    const teste = (event) => {
-        return idiom = event.target.value
+    let idiomOption = 'pt-br'
+
+    if(window.localStorage.getItem('idiom')){
+        console.log('nntrou');
+        idiomOption = window.localStorage.getItem('idiom')
     }
+
+    selectDoc.innerHTML = options.map((item)=>`<option value="${item}" selected="${idiomOption == item}">${item.toUpperCase()}</option>`)
+
+    function setIdiom(event){
+        if(event){
+            window.localStorage.setItem('idiom', event.target.value)
+            window.location.reload()
+        }
+        
+        return window.localStorage.getItem('idiom')
+    }
+
+    // darkmode hehehe
 
     var dark = eval(window.localStorage.getItem('darkmode')) ? darkMode() : 0
 
