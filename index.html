@@ -8,7 +8,7 @@
     <script>
 
     </script>
-    <title>Opa</title>
+    <title id="title">Opa</title>
     <style>
         * {
             font-family: helvetica;
@@ -17,6 +17,15 @@
         body {
             padding: 20px 50px;
             margin: 0;
+        }
+
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            /* background-color: white; */
+            width: 100%;
+            height: 30px;
         }
 
         .activities {
@@ -50,11 +59,10 @@
 
 <body>
     <main>
-        <button id="darkmodeBtn" onclick="darkMode()">Darkmode 🌞</button>
-        <select onchange="setIdiom(event)" name="select" id="select">
-
-
-        </select>
+        <header id="header">
+            <button id="darkmodeBtn" onclick="darkMode()" onmouseover="changeTitle('kk')">Darkmode 🌞</button>
+            <select onchange="setIdiom(event)" name="select" id="select"></select>
+        </header>
         <div class="readme" id="readme"></div>
     </main>
 </body>
@@ -76,7 +84,7 @@
         idiomOption = window.localStorage.getItem('idiom')
     }
 
-    selectDoc.innerHTML = options.map((item)=>`<option value="${item}" selected="${idiomOption == item}">${item.toUpperCase()}</option>`)
+    selectDoc.innerHTML = options.map((item)=>`<option value="${item}" ${idiom == item ? 'selected': null}>${item.toUpperCase()}</option>`)
 
     function setIdiom(event){
         if(event){
@@ -89,7 +97,18 @@
 
     // darkmode hehehe
 
-    var dark = eval(window.localStorage.getItem('darkmode')) ? darkMode() : 0
+    var dark = eval(window.localStorage.getItem('darkmode')) ? darkMode() : 0;
+
+    function changeTitle(place){
+
+        const setting = {
+            theme: {
+                'pt-br': 'Mudar de cor ne'
+            },
+        }
+
+        document.getElementById('title').innerText = setting[place][idiom]
+    }
 
     function darkMode() {
 
@@ -99,7 +118,7 @@
 
         if (dark) {
             document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌚'
-            document.body.style.background = '#000'
+            document.body.style.background = '#1E1E1E'
             document.body.style.color = '#fff'
         } else {
             document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌞'
