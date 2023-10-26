@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/marked@2.0.0/marked.min.js"></script>
+    <script>
+
+    </script>
+    <title>Opa</title>
+    <style>
+        * {
+            font-family: helvetica;
+        }
+
+        body {
+            padding: 20px 50px;
+            margin: 0;
+        }
+
+        .activities {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .technologie-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .techologies-list {
+            /* width: 2000px; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        @media (max-width: 800px) {
+            div {
+                display: flex;
+                flex-direction: column;
+            }
+
+            img {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <button id="darkmodeBtn" onclick="darkMode()">Darkmode 🌞</button>
+        <select onchange="teste(event)" name="select" id="select">
+            <option value="pt-br">PT</option>
+            <option value="ja">PsdfgT</option>
+            <option value="sd-br">PTfd</option>
+            <option value="fd-br">PTfd</option>
+            <option value="pfdt-br">PTfsd</option>
+        </select>
+        <div class="readme" id="readme"></div>
+    </main>
+</body>
+<script>
+
+    // darkmode hehehe
+
+    let idiom = 'pt-br'
+
+    const teste = (event) => {
+        return idiom = event.target.value
+    }
+
+    var dark = eval(window.localStorage.getItem('darkmode')) ? darkMode() : 0
+
+    function darkMode() {
+
+        if (dark) { dark = 0 } else { dark = 1 }
+
+        window.localStorage.setItem('darkmode', dark)
+
+        if (dark) {
+            document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌚'
+            document.body.style.background = '#000'
+            document.body.style.color = '#fff'
+        } else {
+            document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌞'
+            document.body.style.background = '#fff'
+            document.body.style.color = '#000'
+        }
+
+        return dark
+    }
+
+    // using the readme provided on my repo :)
+
+    const data = fetch(`https://raw.githubusercontent.com/LpxsBr/minepage/main/${idiom}.md`) // i was use fetch api to get the data of "raw" github content
+    data
+        .then((res) => res.text())
+        .then(data => {
+            document.getElementById('readme').innerHTML = marked(data)
+            console.log((res.data));
+        })
+        .catch((err) => console.log(err))
+</script>
+
+</html>
