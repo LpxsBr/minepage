@@ -1,0 +1,44 @@
+* {
+    font-family: helvetica;
+}
+
+body {
+    padding: 20px 50px;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* background-color: white; */
+    width: 100%;
+    height: 30px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.technologie-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.techologies-list {
+    /* width: 2000px; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 800px) {
+    div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        width: 80%;
+    }
+}
