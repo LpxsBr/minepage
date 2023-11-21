@@ -51,10 +51,14 @@
             document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌚'
             document.body.style.background = '#1E1E1E'
             document.body.style.color = '#fff'
+            document.body.querySelector("a").style.color = '#fff'
+            document.body.querySelector("a").style.color = '#fff'
         } else {
             document.getElementById('darkmodeBtn').innerText = 'Darkmode 🌞'
             document.body.style.background = '#fff'
             document.body.style.color = '#000'
+            document.body.querySelector("a").style.color = '#000'
+            document.body.querySelector("a").style.color = '#000'
         }
 
         return dark
