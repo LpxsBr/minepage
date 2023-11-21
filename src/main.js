@@ -62,7 +62,7 @@
 
     // using the readme provided on my repo :)
 
-    const data = fetch(`https://raw.githubusercontent.com/LpxsBr/minepage/main/${idiom}.md`) // i was use fetch api to get the data of "raw" github content
+    const data = fetch(`https://raw.githubusercontent.com/LpxsBr/minepage/main/src/lang/${idiom}.md`) // i was use fetch api to get the data of "raw" github content
     data
         .then((res) => res.text())
         .then(data => {
