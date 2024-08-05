@@ -83,15 +83,29 @@ data
     .then((res) => res.text())
     .then(data => {
         document.getElementById('readme').innerHTML = marked(data)
-        console.log((res.data));
+        setTimeout(()=>{
+            
+            const ageArea = document.getElementById('age-of-devolopment');
+
+            const date = new Date();
+
+            let age = date.getFullYear() - 2021
+
+            let viewAge = 0;
+
+            const counter = setInterval(() => {
+
+                if(viewAge == age){
+                    clearInterval(counter)
+                }
+
+                ageArea.innerHTML = viewAge;
+                viewAge++;
+            }, 200);
+
+        }, 2000)
+        // console.log((res.data));
     })
     .catch((err) => console.log(err))
 
 
-const ageArea = document.getElementById('age-of-devolopment');
-
-const date = new Date();
-
-(function(){
-    ageArea.innerHTML = date.getFullYear - 2021
-})()
