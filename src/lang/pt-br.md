@@ -2,7 +2,7 @@
 
 ### Me chamo Anselmo
 
-Sou desenvolvedor a mais de <span id="age-of-devolopment"></span> anos e continuo buscando crescer nessa área.
+Sou desenvolvedor a mais de <span id="age-of-devolopment">0</span> anos e continuo buscando crescer nessa área.
 
 Hoje atuo em um ERP, codando no Web e Mobile (Frontend, Backend, Database e etc...)
 
