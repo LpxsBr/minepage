@@ -2,9 +2,9 @@
 
 ### My name is Anselmo
 
-I've been a developer for more than <span id="age-of-devolopment">0</span> years and I'm constantly seeking to grow in this field.
+**I've been a developer for more than <span id="age-of-devolopment">0</span> years and I'm constantly seeking to grow in this field.**
 
-Currently, I work on an ERP, coding for Web and Mobile (Frontend, Backend, Database, etc...).
+**Currently, I work on an ERP, coding for Web and Mobile (Frontend, Backend, Database, etc...).**
 
 ---
 

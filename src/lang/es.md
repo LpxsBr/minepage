@@ -2,9 +2,9 @@
 
 ### Me llamo Anselmo
 
-Soy desarrollador desde hace más de <span id="age-of-devolopment">0</span> años y sigo buscando crecer en esta área.
+**Soy desarrollador desde hace más de <span id="age-of-devolopment">0</span> años y sigo buscando crecer en esta área.**
 
-Actualmente, trabajo en un ERP, programando para Web y Mobile (Frontend, Backend, Base de datos, etc...).
+**Actualmente, trabajo en un ERP, programando para Web y Mobile (Frontend, Backend, Base de datos, etc...).**
 
 ---
 
