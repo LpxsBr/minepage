@@ -1,60 +1,29 @@
-# 🚀 Anselmo Lopes - Your Frontend Development Solution
+# Hey there!
 
-Are you looking for a top-notch Frontend Developer to take your project to the next level? Look no further! I'm Anselmo Lopes, an experienced Frontend Developer and Engineering student who is passionate about delivering cutting-edge solutions.
+## My name is Anselmo, and welcome to my minimalist portfolio :)
 
-## About Me
+---
 
-- 💼 **Professional Title:** Frontend Developer
-- 📚 **Education:** Bachelor of M in Engineering
-- 👨‍💻 **Skills:** HTML, CSS, JavaScript, React, Node, and more
-- 🌐 **Portfolio:** [Visit My Portfolio](http://lpxsbr.site)
-- 📫 **Contact:** [Email Me](mailto:anselmolopes.an@gmail.com) or Call: +55 85 984066612
+## Technologies
 
-## 💼 Experience
+![Javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![ReactJs](https://img.shields.io/badge/-ReactJs-61DAFB?style=flat-square&logo=react&logoColor=white)
+![React Native](https://img.shields.io/badge/-React%20Native-61DAFB?style=flat-square&logo=react&logoColor=white)
+![NodeJs](https://img.shields.io/badge/-NodeJs-339933?style=flat-square&logo=node.js&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+![PHP/Laravel](https://img.shields.io/badge/-PHP/Laravel-777BB4?style=flat-square&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![NextJs](https://img.shields.io/badge/-NextJs-000000?style=flat-square&logo=next.js&logoColor=white)
 
-### Freelancer at Fortress, Santa Catarina, Chile
-- FullStack Developer
-- **Duration:** January 2023 - Present
+## Git Trophies 🏆
 
-### Pet Select
-- **UI Designer and Front End Developer**
-- Created captivating interfaces and provided ongoing support for the project.
-- [Check out Pet Select](https://petselect.com.br/)
+![Trophies](https://github-profile-trophy.vercel.app/?username=lpxsbr&column=10&theme=darkhub&no-bg=true)
 
-### Ecocolab
-- **Developer**
-- Successfully developed and implemented solutions using React, Python, and VBA.
-- [Explore Ecocolab](https://ecocolab-site.vercel.app/)
-- [Aguadecoco Moodle](https://moodle.aguadecoco.com.br/)
+## My social networks 
 
-### Open Source Contributions
-- Developed an open API for "Days of the week in several languages." Check out my work on [GitHub](https://github.com/LpxsBr/json-dates).
-- Proud participant in [He4rtoberfest-2022](https://github.com/LpxsBr/he4rtoberfest2022).
+**Let’s build something together!** 🚀
 
-## 🚀 Why Choose Me?
-
-- I'm committed to delivering top-quality frontend solutions.
-- Proficient in the latest web technologies, ensuring your project is up-to-date.
-- Experienced in both open source and commercial projects.
-- Dedicated to continuous learning and improvement.
-- Exceptional UI/UX design skills to make your project stand out.
-
-## 🛠️ Technologies
-
-- React
-- JavaScript
-- HTML
-- CSS
-- Bootstrap
-- Chakra UI
-- Node
-- PHP
-- Git / GitHub
-- UX / UI
-
-## 🎓 Education
-
-- Web Developer Junior - Front end at Uncomplicates
-- Currently pursuing a degree in Engineering at the Federal University of Ceara
-
-Ready to elevate your project? Let's chat and bring your vision to life! [Email Me](mailto:anselmolopes.an@gmail.com)
+[![LinkedIn - Anselmo Lopes](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anselmolopess)](https://www.linkedin.com/in/anselmolopess)
+[![Twitter - Lopes](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/LpxsBr)](https://twitter.com/LpxsBr)
+[![Contact Me](https://img.shields.io/badge/Contact%20Me-Email%20Me-red?style=flat-square&logo=gmail)](mailto:anselmolopes.an@gmail.com)

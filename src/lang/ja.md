@@ -1,10 +1,10 @@
-# E aí?!
+# こんにちは！
 
-## Me chamo Anselmo e seja bem-vindo(a) ao meu portfólio minimalista :)
+## 私の名前はアンセルモです。ミニマリストのポートフォリオへようこそ :)
 
 ---
 
-## Tecnologias
+## 技術
 
 ![Javascript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![ReactJs](https://img.shields.io/badge/-ReactJs-61DAFB?style=flat-square&logo=react&logoColor=white)
@@ -16,13 +16,13 @@
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![NextJs](https://img.shields.io/badge/-NextJs-000000?style=flat-square&logo=next.js&logoColor=white)
 
-## Troféus do Git 🏆
+## Git トロフィー 🏆
 
 ![Trophies](https://github-profile-trophy.vercel.app/?username=lpxsbr&column=10&theme=darkhub&no-bg=true)
 
-## Minhas redes 
+## 私のSNS 
 
-**Vamos criar alguma coisa juntos!** 🚀
+**一緒に何かを作りましょう！** 🚀
 
 [![LinkedIn - Anselmo Lopes](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/anselmolopess)](https://www.linkedin.com/in/anselmolopess)
 [![Twitter - Lopes](https://img.shields.io/badge/-Twitter-1ca0f1?style=flat-square&logo=Twitter&logoColor=white&link=https://twitter.com/LpxsBr)](https://twitter.com/LpxsBr)
