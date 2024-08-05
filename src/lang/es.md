@@ -6,8 +6,6 @@
 
 **Actualmente, trabajo en un ERP, programando para Web y Mobile (Frontend, Backend, Base de datos, etc...).**
 
----
-
 ## Tecnologías
 
 <div style="display: flex">

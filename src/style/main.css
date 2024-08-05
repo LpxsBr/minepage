@@ -1,10 +1,13 @@
 * {
     font-family: helvetica;
+    font-size: large;
 }
 
 body {
     padding: 20px 50px;
     margin: 0;
+    display: flex;
+    justify-content: center;
 }
 
 
